@@ -61,7 +61,7 @@ The curl carries your login session. Get it from your browser:
 1. Open the target website and log in
 2. Press **F12** → **Network** tab
 3. Browse the site normally — API requests will appear
-4. Find a request **to the target site's domain** (filter by domain if needed — ignore browser extension requests from other domains)
+4. Find a request **to the target site's domain** — make sure not to copy requests from browser extensions or other domains
 5. Right-click that request → **Copy** → **Copy as cURL**
 6. Paste into your AI chat — it contains your Cookie, CSRF token, and other auth headers
 
@@ -202,7 +202,7 @@ curl 携带你的登录态，从浏览器获取：
 1. 打开目标网站并登录
 2. 按 **F12** → **网络（Network）** 标签
 3. 正常浏览网站 — API 请求会不断出现
-4. 找到一条**目标网站域名**的请求（可按域名筛选 — 忽略浏览器扩展等其他域名的请求）
+4. 找到一条**目标网站域名**的请求，注意不要复制到浏览器扩展等其他域名的请求
 5. **右键** → **复制** → **复制为 cURL**
 6. 粘贴给 AI — 里面包含了你的 Cookie、CSRF Token 等鉴权信息
 
